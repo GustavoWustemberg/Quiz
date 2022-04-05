@@ -1,10 +1,13 @@
-contador = 0
+contador = 0 # É responsável por calcular os acertos
 print('Quiz de God of War')
-question1 = input('1 - Quem é o pai de Kratos?\n'
+
+# Perguntas
+question1 = input('1 - Quem é o pai de Kratos?\n' # Recebe a respostado jogador
                   'A) Hades\n'
                   'B) Ares\n'
                   'C) Zeus\n'
                   'D) Leonidas\n\n')
+# Verifica se o jogador acertou ou errou
 if question1 == 'c':
     print('Acertou\n')
     contador += 1
