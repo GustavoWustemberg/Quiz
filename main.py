@@ -1,8 +1,8 @@
-contador = 0 # É responsável por calcular os acertos
+contador = 0  # É responsável por calcular os acertos
 print('Quiz de God of War')
 
 # Perguntas
-question1 = input('1 - Quem é o pai de Kratos?\n' # Recebe a respostado jogador
+question1 = input('1 - Quem é o pai de Kratos?\n'  # Recebe a respostado jogador
                   'A) Hades\n'
                   'B) Ares\n'
                   'C) Zeus\n'
@@ -103,15 +103,18 @@ elif question9 != 'b':
     print('Errou')
 
 question10 = input('10 - Qual foi o primeiro god of war por ordem cronológica?\n'
-                  'A) God of War Chains of Olympus\n'
-                  'B) God of War Ghost of Sparta\n'
-                  'C) God of War Ascension\n'
-                  'D) God of War 1\n\n')
+                   'A) God of War Chains of Olympus\n'
+                   'B) God of War Ghost of Sparta\n'
+                   'C) God of War Ascension\n'
+                   'D) God of War 1\n\n')
 if question10 == 'c':
     print('Acertou')
     contador += 1
 elif question10 != 'c':
     print('Errou')
+
+# Resultado
+# Calcula o total de acertos e retorna o resultado do quiz
 
 if contador >= 9:
     print('Você acertou {}/10'.format(contador))
